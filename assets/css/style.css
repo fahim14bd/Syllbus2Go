@@ -1,0 +1,219 @@
+/*====Designed by Fahim Tahmid=====*/
+/*====Designed by Fahim Tahmid=====*/
+@font-face {
+    font-family: MontserratLight;
+    src: url(../font/fonts/MontserratLight.ttf);
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(../font/fonts/MontserratBold.ttf);
+}
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url(../font/fonts/MontserratSemiBold.ttf);
+}
+/*====Designed by Fahim Tahmid=====*/
+/*...nav...*/
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #cfe7a8;
+}
+.header #navbarNav .nav-link {
+    color: #000;
+    font-size: 12px;
+    font-family: MontserratLight;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.header #navbarNav .nav-link:hover {
+    color: #8ebe2d;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.header #navbarNav .nav-link strong {
+    color: #000;
+    font-size: 12px;
+    font-family: MontserratBold;
+}
+.header #navbarNav .nav-link.btns {
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #bee08b;
+}
+.header #navbarNav .nav-link.btns:hover {
+    background-color: #033848;
+    border: 1px solid #033848;
+    -webkit-transition: .8s;
+    transition: .8s;
+}
+.header #navbarNav .nav-link.btns:hover strong {
+    color: #fff;
+    -webkit-transition: .8s;
+    transition: .8s;
+}
+/*...nav end...*/
+
+/*====Designed by Fahim Tahmid=====*/
+
+/*...main...*/
+/*...intro-text...*/
+.intro-text h4 {
+    color: #023847;
+    font-family: MontserratLight;
+    font-size: 46px;
+    font-weight: 600;
+}
+.intro-text p {
+    color: #023847;
+    font-family: MontserratLight;
+    font-size: 22px;
+    font-weight: 600;
+}
+.intro-text p span {
+    color: #023847;
+    font-family: MontserratBold;
+    font-size: 22px;
+}
+/*...intro-text end...*/
+/*...intro-feature...*/
+.intro-feature p {
+    color: #000;
+    font-family: MontserratLight;
+    font-size: 15px;
+    font-weight: 600;
+}
+/*...intro-feature end...*/
+
+/*====Designed by Fahim Tahmid=====*/
+
+/*...Pricing...*/
+.pricing .card {
+    padding: 48px 37px 27px 37px;
+    border-radius: 0;
+    border-color: #c6e398;
+}
+.pricing .card-condition {
+    color: #023847;
+    font-family: MontserratSemiBold;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.pricing .card-title {
+    color: #023847;
+    font-family: MontserratLight;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.pricing .card-title span {
+    font-family: MontserratLight;
+    font-size: 18px;
+}
+.pricing .card-text {
+    font-family: MontserratLight;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.pricing .card-text span {
+    font-family: MontserratSemiBold;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+.pricing .card i {
+    color: #8fbe2d;
+    font-size: 12px;
+}
+.pricing .card-btn .btn {
+    font-family: MontserratLight;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    color: #033848;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border: 1px solid #bee08b;
+    border-radius: 24px;
+    background-color: #fff;
+}
+.pricing .card-btn .btn:hover {
+    color: #fff;
+    border: 1px solid #033848;
+    background-color: #033848;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.pricing .card-date {
+    font-family: MontserratLight;
+    font-size: 13px;
+    color: #023847;
+    font-weight: bold;
+}
+/*...Pricing end...*/
+
+/*====Designed by Fahim Tahmid=====*/
+
+/*...FAQ...*/
+.faq .container {
+    border-top: 2px solid #f4f9ea;
+}
+.faq {
+    border-bottom: 1px solid #cfe7a8;
+}
+.faq .faq-top-title {
+    font-family: MontserratLight;
+    color: #023847;
+    font-size: 30px;
+    font-weight: 600;
+}
+.faq .faq-top-sub-title {
+    font-family: MontserratSemiBold;
+    color: #023847;
+    font-size: 18px;
+}
+.faq .faq-title {
+    font-family: MontserratLight;
+    color: #023847;
+    font-size: 22px;
+    font-weight: bold;
+}
+.faq .faq-sub-title {
+    font-family: MontserratLight;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*...FAQ end...*/
+/*...main end...*/
+
+/*====Designed by Fahim Tahmid=====*/
+
+/*...footer...*/
+.footer .nav-link {
+    font-family: MontserratLight;
+    font-size: 12px;
+    color: #023847;
+    font-weight: 600;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.footer .nav-link:hover {
+    color: #8fbe2d;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+/*...footer end...*/
+/*====Designed by Fahim Tahmid=====*/
+
+span {
+    color: #8fbe2d;
+}
+/*====Designed by Fahim Tahmid=====*/
+/*====Designed by Fahim Tahmid=====*/
